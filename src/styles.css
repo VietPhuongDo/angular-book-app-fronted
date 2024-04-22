@@ -1,4 +1,4 @@
-/* 
+/*
  * ----------------------------
  * Common CSS
  * ----------------------------
@@ -127,7 +127,7 @@ aside.menu-sidebar.d-none.d-lg-block.clr{
     box-shadow:-2px 0 4px #0000003b
 }
 
-/* 
+/*
  * ----------------------------
  * Header Desktop Section
  * ----------------------------
@@ -307,7 +307,7 @@ input.au-input.au-input-xl{
     transform:translate(-50%,-50%)
 }
 
-/* 
+/*
  * ----------------------------
  * Left Menu Bar
  * ----------------------------
@@ -381,7 +381,7 @@ input.au-input.au-input-xl{
     color:#0da8e4
 }
 
-/* 
+/*
  * ----------------------------
  * Header Mobile Section
  * ----------------------------
@@ -517,7 +517,7 @@ input.au-input.au-input-xl{
     padding:10% 15%!important
 }
 
-/* 
+/*
  * ----------------------------
  * Products List
  * ----------------------------
@@ -559,7 +559,7 @@ input.au-input.au-input-xl{
     color:#585858
 }
 
-/* 
+/*
  * ----------------------------
  * Shopping Cart Checkout
  * ----------------------------
@@ -673,42 +673,49 @@ select{
     color:#828482
 }
 
-/* 
+/*
  * ----------------------------
  * Shopping Cart Details
  * ----------------------------
  */
-
-.table{
-    margin:0
-}
-table.table.table-bordered{
-    border:1px solid #ccc;
-    background:#fff
-}
-.table-bordered td,.table-bordered th{
-    border:1px solid #dee2e6
-}
-table.table.table-bordered th{
-    BACKGROUND:#0da8e4;
-    color:#fff;
-    font-size:14px;
-    padding:7px
-}
-.table-responsive{
-    padding-right:1px
-}
-.items select{
-    width:100px;
-    height:40px;
-    border-radius:40px;
-    padding-left:15px;
-    margin-bottom:10px;
-    outline:0;
-    margin-left:5px
+.table {
+  margin: 0;
 }
 
-/* 
+table.table.table-bordered {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.table-bordered td, .table-bordered th {
+  border: 1px solid #dee2e6;
+  padding: 10px; /* Thêm padding cho các ô trong bảng */
+}
+
+table.table.table-bordered th {
+  background: #0da8e4;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px; /* Thêm padding cho các ô tiêu đề trong bảng */
+}
+
+.table-responsive {
+  padding-right: 1px;
+}
+
+
+.items select {
+  width: 100px;
+  height: 40px;
+  border-radius: 40px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  outline: 0;
+  margin-left: 5px;
+}
+
+/*
  * ----------------------------
  * Product Details
  * ----------------------------
@@ -730,7 +737,7 @@ table.table.table-bordered th{
 
 /**/
 
-/* 
+/*
  * ----------------------------
  * Buttons
  * ----------------------------
@@ -760,7 +767,7 @@ a.primary-btn:hover{
   font-weight: bold;
 }
 
-/* 
+/*
  * ----------------------------
  * Footer section
  * ----------------------------
@@ -785,7 +792,7 @@ footer ul li{
     padding:10px 20px
 }
 
-/* 
+/*
  * ----------------------------
  * Media Queries
  * ----------------------------
